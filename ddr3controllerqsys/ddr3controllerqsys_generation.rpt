@@ -1,0 +1,72 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate /home/abendezu/Documents/picorv32-fpga/ddr3controllerqsys.qsys --block-symbol-file --output-directory=/home/abendezu/Documents/picorv32-fpga/ddr3controllerqsys --family="Cyclone V" --part=5CSEMA4U23C6
+Progress: Loading picorv32-fpga/ddr3controllerqsys.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 23.1]
+Progress: Parameterizing module clk_0
+Progress: Adding mem_if_ddr3_emif_0 [altera_mem_if_ddr3_emif 23.1]
+Progress: Parameterizing module mem_if_ddr3_emif_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: ddr3controllerqsys.mem_if_ddr3_emif_0: ODT is disabled. Enabling ODT (Mode Register 1) may improve signal integrity
+Warning: ddr3controllerqsys.mem_if_ddr3_emif_0: 'Quick' simulation modes are NOT timing accurate. Some simulation memory models may issue warnings or errors
+Warning: ddr3controllerqsys.mem_if_ddr3_emif_0.pll_bridge: pll_bridge.pll_sharing cannot be both connected and exported
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate /home/abendezu/Documents/picorv32-fpga/ddr3controllerqsys.qsys --synthesis=VERILOG --output-directory=/home/abendezu/Documents/picorv32-fpga/ddr3controllerqsys/synthesis --family="Cyclone V" --part=5CSEMA4U23C6
+Progress: Loading picorv32-fpga/ddr3controllerqsys.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 23.1]
+Progress: Parameterizing module clk_0
+Progress: Adding mem_if_ddr3_emif_0 [altera_mem_if_ddr3_emif 23.1]
+Progress: Parameterizing module mem_if_ddr3_emif_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: ddr3controllerqsys.mem_if_ddr3_emif_0: ODT is disabled. Enabling ODT (Mode Register 1) may improve signal integrity
+Warning: ddr3controllerqsys.mem_if_ddr3_emif_0: 'Quick' simulation modes are NOT timing accurate. Some simulation memory models may issue warnings or errors
+Warning: ddr3controllerqsys.mem_if_ddr3_emif_0.pll_bridge: pll_bridge.pll_sharing cannot be both connected and exported
+Info: ddr3controllerqsys: Generating ddr3controllerqsys "ddr3controllerqsys" for QUARTUS_SYNTH
+Info: mem_if_ddr3_emif_0: "ddr3controllerqsys" instantiated altera_mem_if_ddr3_emif "mem_if_ddr3_emif_0"
+Info: pll0: "mem_if_ddr3_emif_0" instantiated altera_mem_if_ddr3_pll "pll0"
+Info: p0: Generating clock pair generator
+Info: p0: Generating ddr3controllerqsys_mem_if_ddr3_emif_0_p0_altdqdqs
+Info: p0: 
+Info: p0: *****************************
+Info: p0: 
+Info: p0: Remember to run the ddr3controllerqsys_mem_if_ddr3_emif_0_p0_pin_assignments.tcl
+Info: p0: script after running Synthesis and before Fitting.
+Info: p0: 
+Info: p0: *****************************
+Info: p0: 
+Info: p0: "mem_if_ddr3_emif_0" instantiated altera_mem_if_ddr3_phy_core "p0"
+Info: m0: "mem_if_ddr3_emif_0" instantiated altera_mem_if_ddr3_afi_mux "m0"
+Info: s0: Generating Qsys sequencer system
+Info: s0: QSYS sequencer system generated successfully
+Info: s0: "mem_if_ddr3_emif_0" instantiated altera_mem_if_ddr3_qseq "s0"
+Info: dmaster: "mem_if_ddr3_emif_0" instantiated altera_jtag_avalon_master "dmaster"
+Info: c0: "mem_if_ddr3_emif_0" instantiated altera_mem_if_nextgen_ddr3_controller "c0"
+Info: oct0: "mem_if_ddr3_emif_0" instantiated altera_mem_if_oct "oct0"
+Info: dll0: "mem_if_ddr3_emif_0" instantiated altera_mem_if_dll "dll0"
+Info: mm_interconnect_0: "mem_if_ddr3_emif_0" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: jtag_phy_embedded_in_jtag_master: "dmaster" instantiated altera_jtag_dc_streaming "jtag_phy_embedded_in_jtag_master"
+Info: timing_adt: "dmaster" instantiated timing_adapter "timing_adt"
+Info: fifo: "dmaster" instantiated altera_avalon_sc_fifo "fifo"
+Info: b2p: "dmaster" instantiated altera_avalon_st_bytes_to_packets "b2p"
+Info: p2b: "dmaster" instantiated altera_avalon_st_packets_to_bytes "p2b"
+Info: transacto: "dmaster" instantiated altera_avalon_packets_to_master "transacto"
+Info: b2p_adapter: "dmaster" instantiated channel_adapter "b2p_adapter"
+Info: p2b_adapter: "dmaster" instantiated channel_adapter "p2b_adapter"
+Info: rst_controller: "dmaster" instantiated altera_reset_controller "rst_controller"
+Info: ng0: "c0" instantiated altera_mem_if_nextgen_ddr3_controller_core "ng0"
+Info: a0: "c0" instantiated alt_mem_ddrx_mm_st_converter "a0"
+Info: dmaster_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "dmaster_master_translator"
+Info: s0_seq_debug_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "s0_seq_debug_translator"
+Info: ddr3controllerqsys: Done "ddr3controllerqsys" with 24 modules, 172 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
