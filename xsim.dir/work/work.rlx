@@ -1,7 +1,0 @@
-0.7
-2020.2
-May 22 2024
-18:54:44
-/home/abendezu/Documents/picorv32-fpga/picorv32.v,1732604924,verilog,,/home/abendezu/Documents/picorv32-fpga/top.v,,picorv32;picorv32_axi;picorv32_axi_adapter;picorv32_pcpi_div;picorv32_pcpi_fast_mul;picorv32_pcpi_mul;picorv32_regs;picorv32_wb,,,,,,,,
-/home/abendezu/Documents/picorv32-fpga/top.v,1732585626,verilog,,/home/abendezu/Documents/picorv32-fpga/top_tb.v,,top,,,,,,,,
-/home/abendezu/Documents/picorv32-fpga/top_tb.v,1732521325,verilog,,,,top_tb,,,,,,,,
