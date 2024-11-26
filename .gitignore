@@ -1,2 +1,11 @@
 # Vivado Simulator files
 xsim*
+vivado*
+work*
+xelab*
+
+# DDR3 files
+ddr3*
+
+# RAM controller IP Quartus
+ram*
