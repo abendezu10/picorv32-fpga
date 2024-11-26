@@ -1,0 +1,23 @@
+Warning (10273): Verilog HDL warning at picorv32.v(302): extended using "x" or "z" File: /home/abendezu/Documents/picorv32-fpga/picorv32.v Line: 302
+Warning (10273): Verilog HDL warning at picorv32.v(322): extended using "x" or "z" File: /home/abendezu/Documents/picorv32-fpga/picorv32.v Line: 322
+Warning (10273): Verilog HDL warning at picorv32.v(329): extended using "x" or "z" File: /home/abendezu/Documents/picorv32-fpga/picorv32.v Line: 329
+Warning (10273): Verilog HDL warning at picorv32.v(388): extended using "x" or "z" File: /home/abendezu/Documents/picorv32-fpga/picorv32.v Line: 388
+Warning (10273): Verilog HDL warning at picorv32.v(390): extended using "x" or "z" File: /home/abendezu/Documents/picorv32-fpga/picorv32.v Line: 390
+Warning (10273): Verilog HDL warning at picorv32.v(1040): extended using "x" or "z" File: /home/abendezu/Documents/picorv32-fpga/picorv32.v Line: 1040
+Warning (10273): Verilog HDL warning at picorv32.v(1252): extended using "x" or "z" File: /home/abendezu/Documents/picorv32-fpga/picorv32.v Line: 1252
+Warning (10273): Verilog HDL warning at picorv32.v(1269): extended using "x" or "z" File: /home/abendezu/Documents/picorv32-fpga/picorv32.v Line: 1269
+Warning (10273): Verilog HDL warning at picorv32.v(1313): extended using "x" or "z" File: /home/abendezu/Documents/picorv32-fpga/picorv32.v Line: 1313
+Warning (10273): Verilog HDL warning at picorv32.v(1351): extended using "x" or "z" File: /home/abendezu/Documents/picorv32-fpga/picorv32.v Line: 1351
+Warning (10273): Verilog HDL warning at picorv32.v(1406): extended using "x" or "z" File: /home/abendezu/Documents/picorv32-fpga/picorv32.v Line: 1406
+Warning (10273): Verilog HDL warning at picorv32.v(1407): extended using "x" or "z" File: /home/abendezu/Documents/picorv32-fpga/picorv32.v Line: 1407
+Warning (10273): Verilog HDL warning at picorv32.v(1419): extended using "x" or "z" File: /home/abendezu/Documents/picorv32-fpga/picorv32.v Line: 1419
+Warning (10273): Verilog HDL warning at picorv32.v(1420): extended using "x" or "z" File: /home/abendezu/Documents/picorv32-fpga/picorv32.v Line: 1420
+Warning (10273): Verilog HDL warning at picorv32.v(1438): extended using "x" or "z" File: /home/abendezu/Documents/picorv32-fpga/picorv32.v Line: 1438
+Warning (10273): Verilog HDL warning at picorv32.v(1439): extended using "x" or "z" File: /home/abendezu/Documents/picorv32-fpga/picorv32.v Line: 1439
+Warning (10273): Verilog HDL warning at picorv32.v(1442): extended using "x" or "z" File: /home/abendezu/Documents/picorv32-fpga/picorv32.v Line: 1442
+Warning (10273): Verilog HDL warning at picorv32.v(1457): extended using "x" or "z" File: /home/abendezu/Documents/picorv32-fpga/picorv32.v Line: 1457
+Warning (10273): Verilog HDL warning at picorv32.v(1582): extended using "x" or "z" File: /home/abendezu/Documents/picorv32-fpga/picorv32.v Line: 1582
+Warning (10273): Verilog HDL warning at picorv32.v(1583): extended using "x" or "z" File: /home/abendezu/Documents/picorv32-fpga/picorv32.v Line: 1583
+Warning (10273): Verilog HDL warning at picorv32.v(1976): extended using "x" or "z" File: /home/abendezu/Documents/picorv32-fpga/picorv32.v Line: 1976
+Warning (10268): Verilog HDL information at picorv32.v(1404): always construct contains both blocking and non-blocking assignments File: /home/abendezu/Documents/picorv32-fpga/picorv32.v Line: 1404
+Warning (10273): Verilog HDL warning at picorv32.v(2474): extended using "x" or "z" File: /home/abendezu/Documents/picorv32-fpga/picorv32.v Line: 2474
