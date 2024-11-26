@@ -6,6 +6,7 @@
 !leds.c
 !leds.elf
 !leds.hex
+!README.md
 !linker.ld
 !picorv32-fpga.qpf
 !picorv32-fpga.qsf
