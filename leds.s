@@ -1,22 +1,28 @@
 .section .text
 .global _start
 
-.equ USER_IO_DIR, 0x01000000
-.equ BIT_LED, 0x01000000
-.equ BUTTON_MASK, 0x02000000
-
 _start:
-    # Set GPIO direction for LED (output)
-    li t0, USER_IO_DIR       # Load address of USER_IO_DIR
-    li t1, 1                # Set pin as output (adjust as needed)
-    sw t1, 0(t0)            # Write to USER_IO_DIR
+    # Initialize the stack pointer to the top of the memory
+    li sp, 0x00000FFC       # Load immediate value 0x00000FFc into sp (stack pointer)
+    
+    li x3,0            # is the register storing the 
+    li x4, 25000000
+    li x5, 256
+    li x6, 0
 
-    # Turn on LED
-    li t0, BIT_LED          # Load address of BIT_LED
-    li t1, 1                # Set LED on (adjust as needed)
-    sw t1, 0(t0)            # Write to BIT_LED
+_loop:
+  jal ra, _counter
+   
+  addi x6,x6,1
 
-    # Infinite loop
-loop:
-    j loop                  # Keep program running
+  bne x6,x5, _loop
 
+_counter:
+  addi x3,x3, 1
+  bne x3,x4, _counter
+  addi x3,x0,0 
+  ret
+  
+
+_halt:
+  j _halt

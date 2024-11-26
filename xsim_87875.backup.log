@@ -1,0 +1,1006 @@
+#-----------------------------------------------------------
+# xsim v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Nov 25 22:08:21 2024
+# Process ID: 87875
+# Current directory: /home/abendezu/Documents/picorv32-fpga
+# Command line: xsim -source {xsim.dir/work.top_tb/xsim_script.tcl}
+# Log file: /home/abendezu/Documents/picorv32-fpga/xsim.log
+# Journal file: /home/abendezu/Documents/picorv32-fpga/xsim.jou
+# Running On        :linuxpc
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 20.04.6 LTS
+# Processor Detail  :AMD Ryzen 5 5600G with Radeon Graphics
+# CPU Frequency     :1400.000 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :16625 MB
+# Swap memory       :2147 MB
+# Total Virtual     :18773 MB
+# Available Virtual :11773 MB
+#-----------------------------------------------------------
+start_gui
+source xsim.dir/work.top_tb/xsim_script.tcl
+# set_param project.enableReportConfiguration 0
+# load_feature core
+# current_fileset
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.2/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.2/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2024.1/data/ip'.
+current_fileset: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 10943.809 ; gain = 552.078 ; free physical = 1814 ; free virtual = 10306
+# xsim {work.top_tb} -autoloadwcfg
+Time resolution is 1 ps
+open_wave_config /home/abendezu/Documents/picorv32-fpga/work.top_tb.wcfg
+run 5 us
+ST_RD:   2 0x00000ffc
+-- 145000
+DECODE: 0x00010800 0x00001137 lui
+ST_RD:   2 0x00001000
+-- 185000
+DECODE: 0x00010804 0xffc10113 addi
+LD_RS1:  2 0x00001000
+ST_RD:   2 0x00000ffc
+-- 225000
+DECODE: 0x00010808 0x00000193 addi
+LD_RS1:  0 0x00000000
+ST_RD:   3 0x00000000
+-- 265000
+DECODE: 0x0001080c 0x017d8237 lui
+ST_RD:   4 0x017d8000
+-- 305000
+DECODE: 0x00010810 0x84020213 addi
+LD_RS1:  4 0x017d8000
+ST_RD:   4 0x017d7840
+-- 345000
+DECODE: 0x00010814 0x10000293 addi
+LD_RS1:  0 0x00000000
+ST_RD:   5 0x00000100
+-- 385000
+DECODE: 0x00010818 0x00000313 addi
+LD_RS1:  0 0x00000000
+ST_RD:   6 0x00000000
+-- 425000
+DECODE: 0x0001081c 0x00c000ef jal
+ST_RD:   1 0x00010820, BRANCH 0x00010828
+-- 465000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000000
+ST_RD:   3 0x00000001
+-- 505000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000001
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 575000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000001
+ST_RD:   3 0x00000002
+-- 615000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000002
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 685000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000002
+ST_RD:   3 0x00000003
+-- 725000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000003
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 795000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000003
+ST_RD:   3 0x00000004
+-- 835000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000004
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 905000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000004
+ST_RD:   3 0x00000005
+-- 945000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000005
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 1015000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000005
+ST_RD:   3 0x00000006
+-- 1055000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000006
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+$finish called at time : 1100 ns : File "/home/abendezu/Documents/picorv32-fpga/top_tb.v" Line 28
+run 5 us
+-- 1125000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000006
+ST_RD:   3 0x00000007
+-- 1165000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000007
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 1235000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000007
+ST_RD:   3 0x00000008
+-- 1275000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000008
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 1345000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000008
+ST_RD:   3 0x00000009
+-- 1385000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000009
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 1455000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000009
+ST_RD:   3 0x0000000a
+-- 1495000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000000a
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 1565000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000000a
+ST_RD:   3 0x0000000b
+-- 1605000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000000b
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 1675000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000000b
+ST_RD:   3 0x0000000c
+-- 1715000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000000c
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 1785000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000000c
+ST_RD:   3 0x0000000d
+-- 1825000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000000d
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 1895000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000000d
+ST_RD:   3 0x0000000e
+-- 1935000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000000e
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 2005000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000000e
+ST_RD:   3 0x0000000f
+-- 2045000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000000f
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 2115000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000000f
+ST_RD:   3 0x00000010
+-- 2155000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000010
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 2225000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000010
+ST_RD:   3 0x00000011
+-- 2265000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000011
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 2335000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000011
+ST_RD:   3 0x00000012
+-- 2375000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000012
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 2445000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000012
+ST_RD:   3 0x00000013
+-- 2485000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000013
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 2555000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000013
+ST_RD:   3 0x00000014
+-- 2595000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000014
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 2665000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000014
+ST_RD:   3 0x00000015
+-- 2705000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000015
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 2775000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000015
+ST_RD:   3 0x00000016
+-- 2815000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000016
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 2885000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000016
+ST_RD:   3 0x00000017
+-- 2925000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000017
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 2995000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000017
+ST_RD:   3 0x00000018
+-- 3035000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000018
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 3105000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000018
+ST_RD:   3 0x00000019
+-- 3145000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000019
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 3215000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000019
+ST_RD:   3 0x0000001a
+-- 3255000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000001a
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 3325000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000001a
+ST_RD:   3 0x0000001b
+-- 3365000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000001b
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 3435000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000001b
+ST_RD:   3 0x0000001c
+-- 3475000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000001c
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 3545000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000001c
+ST_RD:   3 0x0000001d
+-- 3585000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000001d
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 3655000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000001d
+ST_RD:   3 0x0000001e
+-- 3695000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000001e
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 3765000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000001e
+ST_RD:   3 0x0000001f
+-- 3805000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000001f
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 3875000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000001f
+ST_RD:   3 0x00000020
+-- 3915000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000020
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 3985000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000020
+ST_RD:   3 0x00000021
+-- 4025000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000021
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 4095000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000021
+ST_RD:   3 0x00000022
+-- 4135000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000022
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 4205000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000022
+ST_RD:   3 0x00000023
+-- 4245000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000023
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 4315000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000023
+ST_RD:   3 0x00000024
+-- 4355000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000024
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 4425000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000024
+ST_RD:   3 0x00000025
+-- 4465000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000025
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 4535000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000025
+ST_RD:   3 0x00000026
+-- 4575000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000026
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 4645000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000026
+ST_RD:   3 0x00000027
+-- 4685000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000027
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 4755000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000027
+ST_RD:   3 0x00000028
+-- 4795000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000028
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 4865000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000028
+ST_RD:   3 0x00000029
+-- 4905000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000029
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 4975000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000029
+ST_RD:   3 0x0000002a
+-- 5015000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000002a
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 5085000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000002a
+ST_RD:   3 0x0000002b
+-- 5125000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000002b
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 5195000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000002b
+ST_RD:   3 0x0000002c
+-- 5235000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000002c
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 5305000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000002c
+ST_RD:   3 0x0000002d
+-- 5345000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000002d
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 5415000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000002d
+ST_RD:   3 0x0000002e
+-- 5455000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000002e
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 5525000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000002e
+ST_RD:   3 0x0000002f
+-- 5565000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000002f
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 5635000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000002f
+ST_RD:   3 0x00000030
+-- 5675000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000030
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 5745000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000030
+ST_RD:   3 0x00000031
+-- 5785000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000031
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 5855000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000031
+ST_RD:   3 0x00000032
+-- 5895000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000032
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 5965000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000032
+ST_RD:   3 0x00000033
+-- 6005000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000033
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 6075000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000033
+run 5 us
+ST_RD:   3 0x00000034
+-- 6115000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000034
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 6185000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000034
+ST_RD:   3 0x00000035
+-- 6225000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000035
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 6295000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000035
+ST_RD:   3 0x00000036
+-- 6335000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000036
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 6405000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000036
+ST_RD:   3 0x00000037
+-- 6445000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000037
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 6515000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000037
+ST_RD:   3 0x00000038
+-- 6555000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000038
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 6625000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000038
+ST_RD:   3 0x00000039
+-- 6665000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000039
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 6735000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000039
+ST_RD:   3 0x0000003a
+-- 6775000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000003a
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 6845000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000003a
+ST_RD:   3 0x0000003b
+-- 6885000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000003b
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 6955000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000003b
+ST_RD:   3 0x0000003c
+-- 6995000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000003c
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 7065000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000003c
+ST_RD:   3 0x0000003d
+-- 7105000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000003d
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 7175000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000003d
+ST_RD:   3 0x0000003e
+-- 7215000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000003e
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 7285000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000003e
+ST_RD:   3 0x0000003f
+-- 7325000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000003f
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 7395000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000003f
+ST_RD:   3 0x00000040
+-- 7435000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000040
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 7505000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000040
+ST_RD:   3 0x00000041
+-- 7545000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000041
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 7615000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000041
+ST_RD:   3 0x00000042
+-- 7655000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000042
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 7725000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000042
+ST_RD:   3 0x00000043
+-- 7765000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000043
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 7835000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000043
+ST_RD:   3 0x00000044
+-- 7875000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000044
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 7945000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000044
+ST_RD:   3 0x00000045
+-- 7985000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000045
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 8055000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000045
+ST_RD:   3 0x00000046
+-- 8095000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000046
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 8165000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000046
+ST_RD:   3 0x00000047
+-- 8205000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000047
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 8275000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000047
+ST_RD:   3 0x00000048
+-- 8315000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000048
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 8385000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000048
+ST_RD:   3 0x00000049
+-- 8425000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000049
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 8495000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000049
+ST_RD:   3 0x0000004a
+-- 8535000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000004a
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 8605000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000004a
+ST_RD:   3 0x0000004b
+-- 8645000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000004b
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 8715000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000004b
+ST_RD:   3 0x0000004c
+-- 8755000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000004c
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 8825000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000004c
+ST_RD:   3 0x0000004d
+-- 8865000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000004d
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 8935000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000004d
+ST_RD:   3 0x0000004e
+-- 8975000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000004e
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 9045000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000004e
+ST_RD:   3 0x0000004f
+-- 9085000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000004f
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 9155000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000004f
+ST_RD:   3 0x00000050
+-- 9195000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000050
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 9265000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000050
+ST_RD:   3 0x00000051
+-- 9305000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000051
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 9375000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000051
+ST_RD:   3 0x00000052
+-- 9415000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000052
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 9485000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000052
+ST_RD:   3 0x00000053
+-- 9525000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000053
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 9595000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000053
+ST_RD:   3 0x00000054
+-- 9635000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000054
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 9705000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000054
+ST_RD:   3 0x00000055
+-- 9745000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000055
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 9815000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000055
+ST_RD:   3 0x00000056
+-- 9855000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000056
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 9925000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000056
+ST_RD:   3 0x00000057
+-- 9965000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000057
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 10035000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000057
+ST_RD:   3 0x00000058
+-- 10075000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000058
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 10145000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000058
+ST_RD:   3 0x00000059
+-- 10185000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000059
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 10255000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000059
+ST_RD:   3 0x0000005a
+-- 10295000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000005a
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 10365000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000005a
+ST_RD:   3 0x0000005b
+-- 10405000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000005b
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 10475000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000005b
+ST_RD:   3 0x0000005c
+-- 10515000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000005c
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 10585000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000005c
+ST_RD:   3 0x0000005d
+-- 10625000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000005d
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 10695000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000005d
+ST_RD:   3 0x0000005e
+-- 10735000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000005e
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 10805000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000005e
+ST_RD:   3 0x0000005f
+-- 10845000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x0000005f
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 10915000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x0000005f
+ST_RD:   3 0x00000060
+-- 10955000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000060
+LD_RS2:  4 0x017d7840
+ST_RD:   0 0x00010830, BRANCH 0x00010828
+-- 11025000
+DECODE: 0x00010828 0x00118193 addi
+LD_RS1:  3 0x00000060
+ST_RD:   3 0x00000061
+-- 11065000
+DECODE: 0x0001082c 0xfe419ee3 bne
+LD_RS1:  3 0x00000061
+LD_RS2:  4 0x017d7840
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Nov 25 22:16:22 2024...

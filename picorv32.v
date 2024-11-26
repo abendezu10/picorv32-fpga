@@ -7,7 +7,7 @@
  *  purpose with or without fee is hereby granted, provided that the above
  *  copyright notice and this permission notice appear in all copies.
  *
-*  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ *  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
  *  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
  *  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
  *  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
@@ -25,9 +25,9 @@
 `timescale 1 ns / 1 ps
 // `default_nettype none
 // `define DEBUGNETS
-// `define DEBUGREGS
+ //`define DEBUGREGS
 // `define DEBUGASM
-// `define DEBUG
+ //`define DEBUG
 
 `ifdef DEBUG
   `define debug(debug_command) debug_command
@@ -77,15 +77,15 @@ module picorv32 #(
 	parameter [ 0:0] ENABLE_FAST_MUL = 0,
 	parameter [ 0:0] ENABLE_DIV = 0,
 	parameter [ 0:0] ENABLE_IRQ = 0,
-	parameter [ 0:0] ENABLE_IRQ_QREGS = 1,
-	parameter [ 0:0] ENABLE_IRQ_TIMER = 1,
+	parameter [ 0:0] ENABLE_IRQ_QREGS = 0,
+	parameter [ 0:0] ENABLE_IRQ_TIMER = 0,
 	parameter [ 0:0] ENABLE_TRACE = 0,
 	parameter [ 0:0] REGS_INIT_ZERO = 0,
 	parameter [31:0] MASKED_IRQ = 32'h 0000_0000,
-	parameter [31:0] LATCHED_IRQ = 32'h ffff_ffff,
+	parameter [31:0] LATCHED_IRQ = 32'h 0000_0000,
 	parameter [31:0] PROGADDR_RESET = 32'h 0000_0000,
 	parameter [31:0] PROGADDR_IRQ = 32'h 0000_0010,
-	parameter [31:0] STACKADDR = 32'h ffff_ffff
+	parameter [31:0] STACKADDR = 32'h 0000_0FFC
 ) (
 	input clk, resetn,
 	output reg trap,
@@ -98,6 +98,8 @@ module picorv32 #(
 	output reg [31:0] mem_wdata,
 	output reg [ 3:0] mem_wstrb,
 	input      [31:0] mem_rdata,
+	
+	output reg [31:0] led_reg,
 
 	// Look-Ahead Interface
 	output            mem_la_read,
@@ -1468,7 +1470,7 @@ module picorv32 #(
 			latched_is_lb <= 0;
 			pcpi_valid <= 0;
 			pcpi_timeout <= 0;
-			irq_active <= 0;
+			irq_active <= 0;                                 
 			irq_delay <= 0;
 			irq_mask <= ~0;
 			next_irq_pending = 0;
@@ -1973,6 +1975,11 @@ module picorv32 #(
 		end
 		current_pc = 'bx;
 	end
+	
+	
+    always @(cpuregs[6]) begin
+        led_reg <= cpuregs[6];
+    end
 
 `ifdef RISCV_FORMAL
 	reg dbg_irq_call;

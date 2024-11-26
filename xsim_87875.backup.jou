@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# xsim v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Nov 25 22:08:21 2024
+# Process ID: 87875
+# Current directory: /home/abendezu/Documents/picorv32-fpga
+# Command line: xsim -source {xsim.dir/work.top_tb/xsim_script.tcl}
+# Log file: /home/abendezu/Documents/picorv32-fpga/xsim.log
+# Journal file: /home/abendezu/Documents/picorv32-fpga/xsim.jou
+# Running On        :linuxpc
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 20.04.6 LTS
+# Processor Detail  :AMD Ryzen 5 5600G with Radeon Graphics
+# CPU Frequency     :1400.000 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :16625 MB
+# Swap memory       :2147 MB
+# Total Virtual     :18773 MB
+# Available Virtual :11773 MB
+#-----------------------------------------------------------
+start_gui
+source xsim.dir/work.top_tb/xsim_script.tcl
+open_wave_config /home/abendezu/Documents/picorv32-fpga/work.top_tb.wcfg
+run 5 us
+run 5 us
+run 5 us
+close_sim
