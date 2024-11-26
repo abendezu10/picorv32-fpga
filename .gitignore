@@ -1,0 +1,33 @@
+
+# Ignore all files by default
+*
+
+# Allow specific files and directories
+!leds.c
+!leds.elf
+!leds.hex
+!linker.ld
+!picorv32-fpga.qpf
+!picorv32-fpga.qsf
+!picorv32.v
+!riscv.ld
+!top_tb.v
+!output_files/
+!output_files/**  # Match all files recursively in output_files/
+!simulation/
+!simulation/**  # Match all files recursively in simulation/
+!picorv32-main/
+!picorv32-main/**  # Match all files recursively in picorv32-main/
+
+# Ignore unnecessary files
+*.bak
+*.tmp
+*.log
+*.pb
+*.stp
+*.rpt
+
+# Allow .gitignore and .gitmodules
+!.gitignore
+!.gitmodules
+
