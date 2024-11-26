@@ -28,6 +28,6 @@
 *.rpt
 
 # Allow .gitignore and .gitmodules
-!.gitignore
-!.gitmodules
+.gitignore
+.gitmodules
 
